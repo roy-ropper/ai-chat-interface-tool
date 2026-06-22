@@ -240,8 +240,8 @@ class AIChatApp(tk.Tk):
         # ── Window setup ──────────────────────────────────────────────────────
         self.title("AI CHAT TERMINAL v1.0")
         self.configure(bg=BG)
-        self.minsize(900, 620)
-        self.geometry("1100x720")
+        self.minsize(1000, 760)
+        self.geometry("1360x820")
         self.protocol("WM_DELETE_WINDOW", self._on_close)
 
         self._apply_theme()
